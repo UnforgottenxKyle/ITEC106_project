@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500;800;900&family=Poppins:wght@500;600;700;800;900&display=swap');
+*{
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+html, body{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    background: url(../assets/images/bg1.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+.main .forms{
+    position: relative;
+    margin: 140px 40%;
+    background: transparent;
+    text-align: center;
+    border: 10px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(15px);
+    border-radius: 20px;
+}
+.main .forms h1{
+    color: aliceblue;
+    margin: 90px 0;
+}
+.main .forms .box1 label{
+    position: absolute;
+    margin: 10px -90%;
+    color: aliceblue;
+    font-weight: 700;
+}
+.main .forms .box1 input{
+    margin: 20px 0;
+    position: relative;
+    width: 90%;
+    height: 60px;
+    border: none;
+    background: transparent;
+    outline: none;
+    border-bottom: 5px solid rgba(255, 255, 255, 0.5);
+    color: aliceblue;
+    font-weight: 900;
+    font-size: medium;
+}
+.main .forms .box2 input{
+    width: 40%;
+    height: 30px;
+    margin: 20px 0;
+    background: transparent;
+    border: 5px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    color: aliceblue;
+}
+.main .forms .box2 input:hover{
+    background: aliceblue;
+    cursor: pointer;
+    color: yellow;
+}
